@@ -65,6 +65,14 @@ img{
     /* font-size: 17px; */
     font-weight: 500;
     color: #515155;
+    transition: all 0.2s;
+}
+
+.navList>p:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+
 }
 
 .contactButton{
@@ -79,6 +87,12 @@ img{
     font-family: 'Lato';
     font-weight: 1000;
     font-size: .93rem;
+}
+
+.contactButton:hover{
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
 }
 
 .introDiv{
@@ -120,6 +134,15 @@ img{
     font-weight: 600;
     border-radius: 4px;
     margin-top: 15px;
+}
+
+.reserveButton:hover{
+    cursor: pointer;
+    background-color: #303030;
+}
+
+.reserveButton:active{
+    background-color: #232323;
 }
 
 .introImgDiv
@@ -181,6 +204,12 @@ img{
     margin-top: 28px;
 }
 
+.travelLogsButt:hover{
+    background-color: #e9e7e7;
+    cursor: pointer;
+    color: #232323;
+}
+
 
 .secondDivRight{
     position: absolute;
@@ -209,6 +238,12 @@ img{
     display: inline-block;
     width: 305px;
     margin-right: 4%;
+    transition: all 0.2s;
+}
+
+.cardDiv:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .cardImgDiv{
@@ -364,6 +399,10 @@ img{
     margin-top: 50px;
 }
 
+.arrowDiv:hover{
+    cursor: pointer;
+}
+
 .arrowline{
     width: 96px;
     height: 2px;
@@ -465,6 +504,10 @@ img{
     border-bottom: 2px solid black;
 }
 
+.dropBox:hover{
+    cursor: pointer;
+}
+
 .dropBox>p{
     font-size: 12px;
     display: inline-block;
@@ -508,9 +551,6 @@ img{
     margin-bottom: 63px;
 }
 
-.customerCardBox{
-
-}
 
 .customerCard{
     position: relative;
@@ -520,6 +560,12 @@ img{
     border-radius: 7px;
     display: inline-block;
     margin-right: 14px;
+    transition: all 0.2s;
+}
+
+.customerCard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .eightharrowDivFirst{
@@ -564,9 +610,7 @@ img{
     margin: 29px auto;
 }
 
-.customerCardText{
 
-}
 
 .customerCardText>h1{
     margin: auto;
@@ -660,6 +704,12 @@ button{
     border-radius: 3px;
     font-size: 14px;
     margin-top: 59px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .ninthImageDiv{
@@ -682,8 +732,8 @@ button{
 }
 
 .footerHead>h1{
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 41px;
+    line-height: 39px;
 }
 
 .footerRight{
@@ -711,6 +761,12 @@ button{
 .footerlinks>p{
     font-size: 12px;
     margin-bottom: 14px;
+}
+
+.footerlinks>p:hover{
+    cursor: pointer;
+    color:#000000
+
 }
 
 .bottText{
