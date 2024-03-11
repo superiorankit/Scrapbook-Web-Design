@@ -11,7 +11,7 @@ This project showcases a well-designed Scrapbook page created using HTML and CSS
 
 To enhance the aesthetics of the landing page, I have incorporated an original photo. You can find the original photo in the "images" directory of this repository.
 
-![Original Photo](./original-pic/original-image.jpg)
+![Original Photo](./original-photo/original-image.jpg)
 
 
 ## Instructions
